@@ -17,15 +17,3 @@ spec:
       - path: /usr/bin/bash # centos
   action:
     Block
-
-# kubearmor-dev_test_04
-
-# test
-# (/home/vagrant/selinux-test/) $ bash -c date
-# bash: 1: date: Permission denied
-# (/home/vagrant/selinux-test/) $ bash -c ls
-# ls ...
-
-# expectation
-# (/usr)/bin/bash cannot execute (/usr)/bin/date
-# (/usr)/bin/bash can execute any others
