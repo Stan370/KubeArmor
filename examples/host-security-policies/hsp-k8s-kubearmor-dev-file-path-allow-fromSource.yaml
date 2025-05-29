@@ -15,14 +15,3 @@ spec:
   action:
     Allow
 
-# kubearmor-dev_test_07
-
-# test
-# $ head /etc/hostname
-# kubearmor-dev
-# $ head /etc/hosts
-# head: /etc/hosts: Permission denied
-
-# expectation
-# /usr/bin/head can only access /etc/hostname
-# /usr/bin/head cannot access any others
